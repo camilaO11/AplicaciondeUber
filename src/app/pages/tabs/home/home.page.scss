@@ -1,0 +1,42 @@
+.carta {
+  background-color: rgb(212, 212, 212);
+  color: white;
+  border: solid 1px black;
+}
+
+.fondo {
+  --background: url('./../../../../assets/img/FondoApp.png') 0/100% 100%;
+}
+
+.fondo ion-card-title, ion-card-subtitle, ion-card-content{
+  color: black;
+}
+
+.btn {
+  color: white;
+  width: 55%;
+  float: right;
+  margin-top: -2%;
+  margin-bottom: 2.5%;
+}
+
+
+.miniatura-imagen {
+  height: 75px;
+  width: auto;
+  float: right;
+  margin-top: -12%;
+  margin-right: -3%;
+}
+
+.fondo ion-card-content h6 {
+  margin-top: -25px;
+}
+
+
+
+.carta ion-card-content,
+.carta ion-card-title,
+.carta ion-card-subtitle {
+  text-align: left;
+}

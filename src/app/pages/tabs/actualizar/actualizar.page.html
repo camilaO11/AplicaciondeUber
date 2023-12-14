@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark">
+    <ion-title color="light">TeLlevoAPP</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="fondo">
+  <div class="espacio"></div>
+
+  <h1 class="texto">Actualizar perfil</h1>
+  <ion-list style="background-color: transparent">
+    <ion-item color="medium" class="ionItemm">
+      <ion-input label="Nombre" labelPlacement="stacked" placeholder=""></ion-input>
+    </ion-item>
+    <ion-item color="medium" class="ionItemm">
+      <ion-input label="Correo" labelPlacement="stacked" placeholder=""></ion-input>
+    </ion-item>
+    <ion-item color="medium" class="ionItemm">
+      <ion-input label="Contraseña" labelPlacement="stacked" type="password" placeholder=""></ion-input>
+    </ion-item>
+    <ion-item color="medium" class="ionItemm">
+      <ion-input label="Patente del vehículo" labelPlacement="stacked" placeholder=""></ion-input>
+    </ion-item>
+    <ion-item color="medium" class="ionItemm">
+      <ion-input label="Marca del vehículo" labelPlacement="stacked" placeholder=""></ion-input>
+    </ion-item>
+    <ion-item color="medium" class="ionItemm">
+      <ion-input label="Color del vehículo" labelPlacement="stacked" placeholder=""></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-button color="danger" class="ionBtn" expand="block" (click)="user()">Guardar cambios</ion-button>
+</ion-content>

@@ -1,0 +1,56 @@
+.fondo {
+  --background: url('./../../../../assets/img/FondoApp.png') 0/100% 100%;
+}
+
+/* Media query para ajustar el tamaño del mapa en dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  .fondo ion-title {
+    font-size: large; /* Cambia el tamaño de la fuente del título en dispositivos móviles */
+    margin-top: 20px; /* Ajusta el margen superior del título */
+    margin-bottom: 20px; /* Ajusta el margen inferior del título */
+  }
+
+  .fondo h4 {
+    margin-top: 20%; /* Cambia el margen superior del texto h4 en dispositivos móviles */
+  }
+
+  .map {
+    width: 100%; /* Cambia el ancho del mapa para adaptarse al tamaño de la pantalla */
+    height: 300px; /* Ajusta la altura del mapa para dispositivos móviles */
+  }
+}
+
+/* Resto de tu código CSS existente */
+.fondo ion-title {
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.fondo h4 {
+  text-align: center;
+  margin-top: 45%;
+}
+
+.logo {
+  margin: auto;
+  width: 80%;
+  height: 175px;
+  border: solid 2px black;
+}
+
+.ionBtn {
+  width: 80%;
+  margin: auto;
+  padding: 1%;
+  border-radius: 20%;
+  color: rgb(255, 255, 255);
+}
+
+.geocoder {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1; /* Asegura que esté por encima del mapa */
+}

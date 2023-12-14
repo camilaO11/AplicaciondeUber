@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark">
+    <ion-title color="light">TeLlevoAPP</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-content class="fondo">
+    <ion-card>
+      <ion-list>
+        <ion-item *ngFor="let item of historialItems">
+          {{ item.descripcion }} - {{ item.destino }} - {{ item.fecha }}
+        </ion-item>
+      </ion-list>
+    </ion-card>
+  </ion-content>
+</ion-content>

@@ -1,0 +1,70 @@
+.fondo{
+    --background: url('./../../../../assets/img/2.PNG') 0/100% 100%;
+}
+
+.espacio{
+    margin-top: 77%;
+}
+
+.logo{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    border: solid 2px black;
+}
+
+.texto{
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+    padding-top: 1%;
+}
+
+.texto2{
+    text-align: center;
+    color: red;
+    font-size: medium;
+}
+
+.txt{
+    text-align: center;
+    color: white;
+    font-size: medium;
+}
+
+.ionItemm{
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+}
+
+.ionBtn{
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+    border-radius: 20%;
+    color: rgb(255, 255, 255);
+}
+
+.texto2{
+    width: 75%;
+    margin: auto;
+    padding: 2%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(106, 106, 106);
+}
+
+.contenedor {
+    margin-top: 1%;
+    display: flex;
+    align-items: center; /* Esto centrará verticalmente el contenido */
+    justify-content: center; /* Esto centrará horizontalmente el contenido */
+  
+  }
+
+
+
+
+

@@ -1,0 +1,7 @@
+{
+  "name": "rutafacil",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

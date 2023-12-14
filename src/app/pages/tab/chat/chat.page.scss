@@ -1,0 +1,25 @@
+.chat-item{
+    --padding-top:10px;
+    --padding-bottom: 10;
+  
+    &.bot{
+    --background: transparent;
+    }
+  }
+  
+  
+  .text-box-item{
+    --border-radius: 15px;
+    --background: var(--ion.color-light);
+  }
+  .chat-icon{
+    font: size 23px;
+  }
+  ion-badge{
+    padding:15px;
+  }
+
+
+  .fondo {
+    --background: url('./../../../../assets/img/FondoApp.png') 0/100% 100%;
+  }

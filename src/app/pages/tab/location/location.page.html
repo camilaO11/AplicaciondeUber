@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark">
+    <ion-title color="light">TeLlevoAPP</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="fondo">
+  <ion-title size="large"></ion-title>
+  <h4>Ingrese la direccion a la que va</h4>
+
+  <div id="map-container"> 
+    <div class="map" id="map" tabindex="0"></div>
+  </div>
+
+  <ion-button color="danger" class="ionBtn" expand="block" (click)="verbusqueda()">
+    <ion-icon name="search-outline" style="margin-right: 3%;"></ion-icon>
+    BUSCAR
+  </ion-button>
+
+</ion-content>

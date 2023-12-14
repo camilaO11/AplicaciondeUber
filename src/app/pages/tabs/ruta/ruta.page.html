@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark">
+    <ion-title color="light">TeLlevoAPP</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="fondo">
+  <ion-title size="large">Buscar ruta</ion-title>
+  <h4>Ingrese la dirección a la que va</h4>
+
+  <div id="map-container">
+    <div class="map" id="map" tabindex="0"></div>
+    <div id="geocoder-container" class="geocoder"></div>
+  </div>
+
+  <form (ngSubmit)="guardarRuta()">
+    <ion-item>
+      <ion-label position="floating">Punto de inicio</ion-label>
+      <ion-input type="text" [(ngModel)]="puntoInicio" required></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Punto final</ion-label>
+      <ion-input type="text" [(ngModel)]="puntoFinal" required></ion-input>
+    </ion-item>
+
+    <ion-button expand="block" color="primary" type="submit">Guardar Ruta</ion-button>
+  </form>
+</ion-content>

@@ -1,0 +1,55 @@
+.fondo{
+    --background: url('./../../../assets/img/2.PNG') 0/100% 100%;
+}
+
+.espacio{
+    margin-top: 35%;
+}
+
+.logo{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: url('./../../../assets/img/inicio.png') 0/100%;
+    border: solid 2px black;
+}
+
+.texto{
+    text-align: center;
+    color: red;
+    font-size: medium;
+    padding-top: 1%;
+}
+
+.texto2{
+    text-align: center;
+    color: red;
+    font-size: medium;
+}
+
+.txt{
+    text-align: center;
+    color: white;
+    font-size: medium;
+}
+
+.ionItemm{
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+}
+
+.ionBtn{
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+    border-radius: 20%;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
